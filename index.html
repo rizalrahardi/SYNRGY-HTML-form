@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Register</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 id="titleForm">form register</h1>
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="Name" class="subTitle">nama lengkap</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="name" id="name" placeholder="nama" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Name" class="subTitle">nama panggilan</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="name" id="name" placeholder="nama panggilan" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="jenisKelamin" class="subTitle">Jenis Kelamin</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <input type="radio" name="JKelamin" id="laki" />
+                            <label class="" for="laki">laki-laki</label><br />
+                            <input type="radio" name="JKelamin" id="perempuan" />
+                            <label class="" for="perempuan">perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tempatLahir" class="subTitle">tempat lahir</label>
+                        </td>
+                        <td>:</td>
+                        <td><input type="text" name="name" id="name" placeholder="tempat lahir" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tanggalLahir" class="subTitle">tanggal lahir</label>
+                        </td>
+                        <td>:</td>
+                        <td><input type="date" name="date" id="date" max="2021-01-18" /></td>
+                    </tr>
+                    <tr>
+                        <td><label class="subTitle" for="agama">agama</label></td>
+                        <td>:</td>
+                        <td>
+                            <select name="agama" id="agama">
+                                <option value="">agama</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Buddha">Buddha</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="kewarganegaraan" class="subTitle">kewarganegaraan</label>
+                        </td>
+                        <td>:</td>
+                        <td><input type="text" name="kewarganegaraan" id="kewarganegaraan" placeholder="negara" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="anak" class="subTitle">anak ke</label>
+                        </td>
+                        <td>:</td>
+                        <td><input type="text" name="anak" id="anak" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="saudara" class="subTitle">jumlah saudara</label>
+                        </td>
+                        <td>:</td>
+                        <td><input type="text" name="saudara" id="saudara" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="status" class="subTitle">status perkawinan</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <input type="radio" name="status" id="kawin" />
+                            <label class="subTitle" for="kawin">kawin</label><br />
+                            <input type="radio" name="status" id="belumKawin" />
+                            <label class="subTitle" for="belumKawin">belum kawin</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="subTitle" for="SIM">jenis SIM</label></td>
+                        <td>:</td>
+                        <td>
+                            <select name="SIM" id="sim">
+                                <option value="">SIM</option>
+                                <option value="a">A</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="subTitle" for="alamat">alamat lengkap</label></td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="alamat" id="alamat" cols="20" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="subTitle" for="NIK">no. KTP</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="NIK" id="nik" placeholder="NIK" /></td>
+                    </tr>
+                    <tr>
+                        <td><label class="subTitle" for="noHp">no. tlp</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="noHp" id="nohp" placeholder="08xxxxx" /></td>
+                    </tr>
+                    <tr>
+                        <td><label class="subTitle" for="alamat">alamat lain</label></td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="alamat" id="alamat" cols="20" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="subTitle" for="noHp">no. tlp lain</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="noHp" id="nohp" placeholder="08xxxxx" /></td>
+                    </tr>
+                    <td><label class="subTitle" for="pict">upload foto</label></td>
+                    <td>:</td>
+                    <td><input type="file" name="filename" id="myFile" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button>submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
